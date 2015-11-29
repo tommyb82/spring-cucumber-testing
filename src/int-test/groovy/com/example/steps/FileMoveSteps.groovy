@@ -28,9 +28,7 @@ public class FileMoveSteps {
 	
 	@Given('^there are is a file in the source directory$')
 	def there_are_is_a_file_in_the_source_directory() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		println mockEndpoint
-		Assert.assertTrue(true)
+	    
 	}
 
 	@When('^the route is started$')
